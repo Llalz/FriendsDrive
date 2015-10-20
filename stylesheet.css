@@ -1,0 +1,23 @@
+body {
+	margin-bottom: 70px;
+	
+}
+
+.page-header {
+	margin-top: 0;
+}
+
+
+
+.featureimg{
+	margin-bottom: 2%;
+	width: 100%;
+}
+
+.list-group{
+	margin-top: 30%;
+}
+
+.push {
+    height: 120px;
+}
