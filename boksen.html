@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>FriendsDrive</title>
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+			 <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <body>
+					<!--NAVBAR-->
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <a href="indexN.html" class="navbar-brand">DriveFriends</a>
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Hjem</a></li>
+                            <li class="dropdown">
+                                <a href="" class="dropdown-toggle" data-toggle="dropdown">Medlem <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Sjåfører</a></li>
+                                        <li><a href="#">Bestill</a></li>
+                                        <li><a href="#">Rate</a></li>
+                                    </ul> 
+                            </li>
+                           
+                            <li><a href="#kontakt" data-toggle="modal">Kontakt oss</a></li>
+                            <li><a href="#">Om oss</a></li>
+							<li><a href="#">LogIn</a></li>
+                        </ul>
+                    </div>
+                </div>            
+            </div>
+			 <!--Tekst midt på siden-->
+		<div class=	"container">
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="panel panel-default">
+						<div class="panel-body">
+						<h1> Hello </h1>
+							<div class="page-header">
+							<h3>Hello <small> Posted today</small></h3>
+							</div>
+							<img class="featureimg" src ="bilde/wedrive.jpg" width="100%">
+							<p>This is my car</p>
+							<h4> Hello</4>
+							<p>there</p> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	   
+			   
+			   
+		<!--FOOTER-->			   
+		<div class="navbar navbar-inverse navbar-fixed-bottom">
+			<div class="container">
+				<p class="navbar-text pull-left">Build By Jonas Runningen</p>
+				<a href = "#" class="navbar-btn btn-primary btn pull-right"> Registrer </a>
+			</div>
+		</div>
+		
+		<!-- kontakt -->
+		<div class ="modal fade" id="kontakt" role="dialog">
+			<div class ="modal-dialog">
+				<form class="form-horizontal">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4>Kontakt oss</h4>		
+								</div>
+							<div class="modal-body">
+					
+					<div class="form-group">
+						<label for ="kontakt-navn" class="col-lg-2 control-label">Navn:</label>
+						<div class="col-lg-10">
+							<input type="navn" class="form-control" id="kontakt-navn" placeholder="Fullt navn">
+						
+						
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for ="kontakt-email" class="col-lg-2 control-label">Epost:</label>
+						<div class="col-lg-10">
+								<input type="epost" class="form-control" id="kontakt-epost" placeholder="epost">
+						
+						
+						
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for ="kontakt-melding" class="col-lg-2 control-label">Melding</label>
+						<div class="col-lg-10">
+							
+							<textarea class="form-control" rows="6"></textarea>
+						
+						
+						</div>
+					</div>
+					
+				</div>
+				<div class="modal-footer">
+				<a class="btn btn-default" data-dismiss="modal"> Close </a>
+				<button class="btn btn-primary" type="submit"> Send</button>
+			</form>
+			</div>
+		</div>
+                    <!--JS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
